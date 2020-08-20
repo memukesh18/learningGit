@@ -1,0 +1,62 @@
+--------------------------------------------------------------------------------------------
+==================================== Working with git basics ===============================
+--------------------------------------------------------------------------------------------
+git init
+git add .
+git restore --staged <file>			//to unstage 					
+git commit -m "Initial Commit"		//commit with message
+
+cat .git/config						// display git configuration
+
+git checkout -b login 				//create and switch to branch
+	or 
+git branch login					//create a new branch
+git checkout login					//switch to the branch
+
+git status
+git commit -am "login added"		//add and commit together all tracked files
+git commit -a -m "login added"
+git log --stat --graph				//show log file with detailed stats and graph
+git reflog --all
+
+git commit --amend -m "message"
+
+git reset #hashCode
+git reset --soft|hard #hashCode
+
+--------------------------------------------------------------------------------------------
+================================== working with remotes =================================== 
+--------------------------------------------------------------------------------------------
+
+git clone <url>							//cloning or downloading git file to local
+git remote -v							//list of remote repository with urls
+git remote add <alias> <url> 			//adding multiple remotes
+git fetch <remote>						//fetch data from remote
+git remote show <remote>				//more information about a particular remote
+git remote rename <oldname> <newName>	//to change a remote’s shortname
+git remote remove/rm <remote>			//remove a remote
+git remote set-url origin <updated url>	//update url in case repository is moved or renamed
+
+
+
+---------------------------------------------------------------------------------------------
+====================================== git Aliases =========================================
+---------------------------------------------------------------------------------------------
+
+git config --global user.name "Mukesh K"
+git config --global user.email "me.mukesh18@gmail.com"
+
+
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
+
+---------------------------------------------------------------------------------------------
+============================================================================================
+---------------------------------------------------------------------------------------------
+
+
+
+

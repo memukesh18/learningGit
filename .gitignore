@@ -1,4 +1,6 @@
+#Exclude dir and files
 build/
+*.log
 
 # Prerequisites
 *.d

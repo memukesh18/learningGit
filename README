@@ -1,22 +1,2 @@
-commit ccd159f5ed818ef3529696082d0ff444476b6445
-Author: Mukesh K <me.mukesh18@gmail.com>
-Date:   Mon Feb 10 21:23:35 2020 +0530
-
-    Added Readme file
-
- README | 1 +
- 1 file changed, 1 insertion(+)
-
-commit f282ec9ae8ef5d228f0926d00dcfe0521ec56fff
-Author: Mukesh K <me.mukesh18@gmail.com>
-Date:   Mon Feb 10 20:56:55 2020 +0530
-
-    Initial Commit
-
- app.js           | 1 +
- file1            | 1 +
- file2            | 2 ++
- file3            | 1 +
- index.html       | 6 ++++++
- login/login.html | 6 ++++++
- 6 files changed, 17 insertions(+)
+# About
+ This Repository is created to learn and test git commands.
