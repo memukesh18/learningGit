@@ -1,10 +1,9 @@
---------------------------------------------------------------------------------------------
+hiy--------------------------------------------------------------------------------------------
 ==================================== Working with git basics ===============================
 --------------------------------------------------------------------------------------------
 git init
-git add .
-git restore --staged <file>			//to unstage 					
-git commit -m "Initial Commit"		//commit with message
+git add .					
+git commit -m "Initial Commit"	//commit with message
 
 cat .git/config						// display git configuration
 
@@ -19,7 +18,8 @@ git commit -a -m "login added"
 git log --stat --graph				//show log file with detailed stats and graph
 git reflog --all
 
-git commit --amend -m "message"
+git commit --amend -m "message"		//change the most recent commit messages
+git rebase -i HEAD~n				//amend the message for multiple commits or older commit
 
 git reset #hashCode
 git reset --soft|hard #hashCode
@@ -35,8 +35,6 @@ git fetch <remote>						//fetch data from remote
 git remote show <remote>				//more information about a particular remote
 git remote rename <oldname> <newName>	//to change a remote’s shortname
 git remote remove/rm <remote>			//remove a remote
-git remote set-url origin <updated url>	//update url in case repository is moved or renamed
-
 
 
 ---------------------------------------------------------------------------------------------
