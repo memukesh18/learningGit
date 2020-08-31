@@ -36,6 +36,8 @@ git remote show <remote>				//more information about a particular remote
 git remote rename <oldname> <newName>	//to change a remote’s shortname
 git remote remove/rm <remote>			//remove a remote
 
+git push -u origin master				//push to remote origin master
+git push --force						//force a git push
 
 ---------------------------------------------------------------------------------------------
 ====================================== git Aliases =========================================
