@@ -1,5 +1,5 @@
 this is file one.
 
-Git commit -m "commit with previous date" --date Thu Sep 15 06:46:00 2020 +0530
+Git commit -m "commit with previous date" --date "Thu Sep 15 06:46:00 2020 +0530"
 
-Current Date : 
+Current Date : Wed Sep 23 16:40:20 2020 +0530
