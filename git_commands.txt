@@ -5,6 +5,8 @@ git init
 git add .					
 git commit -m "Initial Commit"	//commit with message
 
+git commit -m "commit with previous date" --date "Thu Sep 15 06:46:00 2020 +0530"
+
 cat .git/config						// display git configuration
 
 git checkout -b login 				//create and switch to branch
