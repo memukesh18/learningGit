@@ -46,7 +46,7 @@ git push --force						//force a git push
 ---------------------------------------------------------------------------------------------
 
 git config --global user.name "Mukesh K"
-git config --global user.email "me.mukesh18@gmail.com"
+git config --global user.email "email"
 
 
 git config --global alias.co checkout
