@@ -8,7 +8,7 @@
  git commit -m "Initial Commit" 
  ```
 
-## Commit with previous date
+## Commit to an earlier date. 
  ```
  git commit -m "message" --date "Day Month date hh:mm:ss yyyy +0530"
  ```
