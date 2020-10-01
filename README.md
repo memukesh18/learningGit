@@ -35,9 +35,9 @@
  ```
  
 ## change the most recent commit messages
-```
+ ```
  git commit --amend -m "message"
-```
+ ```
 
 ## amend the message for multiple commits or older commit
  ```
@@ -47,12 +47,17 @@
  ```
  git reset #hashCode
  git reset --soft|hard #hashCode
+ 
+ git reset HEAD@{1}					//To undo reset if reset was used one time
+ git reset HEAD@{N}					//undo reset if reset was used n times
+ 
+ git reset #hashCode				//We can also undo reset using hashCode
  ```
 # working with remotes
 ## cloning or downloading git file to local
-```
+ ```
  git clone <url>
-```
+ ```
 ## list of remote repository with urls
  ```
  git remote -v
@@ -64,34 +69,34 @@
  ```
  
 ## fetch data from remote
-```
+ ```
  git fetch <remote>
-```
+ ```
 
 ## more information about a particular remote
-``` 
+ ``` 
  git remote show <remote>
-```
+ ```
 
 ## to change a remote’s shortname
-``` 
+ ``` 
  git remote rename <oldname> <newName>
-```
+ ```
 
 ## remove a remote
-``` 
+ ``` 
  git remote remove/rm <remote>
-```
+ ```
 
 ## push to remote origin master
-```
+ ```
  git push -u origin master
-```
+ ```
 
 ## force a git push
-``` 
+ ``` 
  git push --force
-```
+ ```
 
 
 

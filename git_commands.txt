@@ -26,6 +26,8 @@ git rebase -i HEAD~n				//amend the message for multiple commits or older commit
 git reset #hashCode
 git reset --soft|hard #hashCode
 
+git reset HEAD@{1}					To undo reset if reset was used one time
+git reset HEAD@{N}					undo reset if reset was used n times
 --------------------------------------------------------------------------------------------
 ================================== working with remotes =================================== 
 --------------------------------------------------------------------------------------------
